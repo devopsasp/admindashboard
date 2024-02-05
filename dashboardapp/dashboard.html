@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="mystyle.css" type="text/css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+  .checked {
+    color: orange;
+  }
+</style>
+<script src="js/chart.js"></script>
+<div>
+  <div>
+    <div class="databox">No of Orders Placed 1725</div>
+    <div class="databox">No of logins 54356</div>
+    <div class="databox">No of Orders delivered 54356</div>
+    <div class="databox">
+      Star Rating<br />
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+  </div>
+  <div class="boxarea">
+    <canvas
+      id="myChart"
+      style="width: 100%; max-width: 200px; height: 200px"></canvas>
+    <script src="js/scatter.js"></script>
+  </div>
+
+  <div class="boxarea">
+    <canvas
+      id="mybarChart"
+      style="width: 100%; max-width: 200px; height: 200px"></canvas>
+    <script src="js/bar.js"></script>
+  </div>
+  <div class="altboxarea">
+    <canvas
+      id="mypieChart"
+      style="width: 100%; max-width: 200px; height: 200px"></canvas>
+    <script src="js/pie.js"></script>
+  </div>
+  <div>
+    <canvas
+      id="mylineChart"
+      style="
+        width: 100%;
+        max-width: 900px;
+        height: 200px;
+        margin: 30px;
+      "></canvas>
+    <script src="js/line.js"></script>
+  </div>
+</div>
